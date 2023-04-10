@@ -64,9 +64,9 @@
       </nav>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-6">
-          <a href="vars.php">
-            <button class="btn btn-secondary position-absolute bottom-0 end-0 mb-3 btn-danger">Anterior</button>
+        <div class="col-6">
+            <a href="vars.php">  
+            <button class="btn btn-primary position-absolute bottom-0 start-0 mb-3 btn-danger">Anterior</button>
             </a>
           </div>
           <div class="col-6">
