@@ -62,6 +62,19 @@
           </div>
         </div>
       </nav>
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <h1>Variáveis em PHP</h1>
+            <hr>
+            <p>Assim como em JavaScript, as variáveis são fracamente tipadas, o que significa que, na declaração das mesmas, não se usa termos como "Int", "float", "string".</p>
+            <p>Para declarar uma variável, se usa <code>$</code> e o nome. Por exemplo: <code>$msg = "Hello world!"</code> declara uma variável chamada 'msg' com valor "Hello world". Portanto, <code>$msg</code> é uma string, neste caso.</p>
+            <p>Para declarar uma variável com valor numérico, basta usar <code>$</code> e o nome, acompanhado do <code>=</code> e um valor numérico. Por exemplo, <code>$valor1 = 5</code> cria uma variável chamada <code>$valor1</code> com valor 5.</p>
+          </div>
+        </div>
+      </div>
+
+
       <div class="container-fluid">
         <div class="row">
           <div class="col-6">
