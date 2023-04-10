@@ -62,6 +62,21 @@
           </div>
         </div>
       </nav>
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <h1>Statements em PHP</h1>
+            <hr>
+            <p>Assim como em JavaScript, temos statements como <code>if, else, while e switch</code>. É esperado que o uso destes seja conhecido, já que foi visto em várias linguagens.</p>
+            <p>Bem, caso você não lembre o uso dos statements, aqui estão os links da documentação de PHP sobre os mesmos.</p>
+            <ul type="dot">
+              <a href="https://www.php.net/manual/pt_BR/control-structures.if.php"><li>If</li></a>
+              <a href="https://www.php.net/manual/pt_BR/control-structures.while.php"><li>While</li></a>
+              <a href="https://www.php.net/manual/pt_BR/control-structures.switch.php"><li>Switch</li></a>
+            </ul>
+           </div>
+        </div>
+      </div>
       <div class="container-fluid">
         <div class="row">
         <div class="col-6">
