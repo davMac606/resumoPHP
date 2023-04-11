@@ -91,7 +91,7 @@
     <div class="row">
       <h1>Exemplo:</h1>
       <div class="col-md-12 col-sm-12">
-        <div class="container myContainer">
+        <div class="container">
           <p><code>$myArray = array("Apple", "Melon", "Grape");
             function insertLimit($valor) {<br>
             return "Fruta: " . $valor;<br>

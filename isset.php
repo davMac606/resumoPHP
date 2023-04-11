@@ -76,7 +76,7 @@
     <div class="row">
       <h3>Exemplo:</h3>
       <div class="col-md-12 col-sm-12">
-        <div class="container myContainer">
+        <div class="container">
         <p><code>$valor1 = 5;<br>
             if (isset($valor1)) {<br>
               echo "tem valor";<br>
