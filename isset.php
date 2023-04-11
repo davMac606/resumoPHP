@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Método isset</title>
   <link rel="stylesheet" type="text/css" href="bootstrap-5.2.2-dist\css\bootstrap.min.css">
+  <style>
+    .myContainer {
+      background-color: #aca4a4;
+    }
+    </style>
 </head>
 
 <body>
@@ -65,20 +70,47 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
-        <div class="row">
-          <div class="col-6">
-            <a href="echo.php">
-            <button class="btn btn-primary position-absolute bottom-0 start-0 mb-3 btn-danger">Anterior</button>
-            </a>
-          </div>
-          <div class="col-6">
-            <a href="mapsarrays.php">
-            <button class="btn btn-secondary position-absolute bottom-0 end-0 mb-3 btn-success">Próximo</button>
-            </a>
-          </div>
-        </div>
+
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h1>Método Isset</h1>
+        <hr>
+        <p>Assim como nas outras linguagens, o método/função isset retorna um boolean determinado pela existência de um valor numa variável ou não.</p>
       </div>
+    </div>
+    <div class="row">
+      <h3>Exemplo:</h3>
+      <div class="col-md-12 col-sm-12">
+        <div class="container myContainer">
+        <p><code>$valor1 = 5;<br>
+            if (isset($valor1)) {<br>
+              echo "tem valor";<br>
+            } else {<br>
+              echo "não tem valor";<br>
+            }<br>
+          </code></p>
+          <p><code>Saída:</code>tem valor</p>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <a href="echo.php">
+          <button class="btn btn-primary position-absolute bottom-0 start-0 mb-3 btn-danger">Anterior</button>
+        </a>
+      </div>
+      <div class="col-6">
+        <a href="mapsarrays.php">
+          <button class="btn btn-secondary position-absolute bottom-0 end-0 mb-3 btn-success">Próximo</button>
+        </a>
+      </div>
+    </div>
+  </div>
 
 
 

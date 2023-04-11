@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maps e Arrays</title>
   <link rel="stylesheet" type="text/css" href="bootstrap-5.2.2-dist\css\bootstrap.min.css">
+  <style>
+    .myContainer {
+      background-color: #aca4a4;
+    }
+  </style>
 </head>
 
 <body>
@@ -65,20 +70,58 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
-        <div class="row">
-          <div class="col-6">
-            <a href="isset.php">
-            <button class="btn btn-primary position-absolute bottom-0 start-0 mb-3 btn-danger">Anterior</button>
-            </a>
-          </div>
-          <div class="col-6">
-            <a href="stringfun.php">
-            <button class="btn btn-secondary position-absolute bottom-0 end-0 mb-3 btn-success">Próximo</button>
-            </a>
-          </div>
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h1>Arrays</h1>
+        <hr>
+        <p>Arrays, para ser breve, são conjuntos de valores, criados com a intenção de serem facilmente manipulados. Para criar um array, basta declarar uma <code>variável</code> e indicar que é um array. Em seguida, insere-se os valores.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h1>Exemplo:</h1>
+        <hr>
+        <p><code>$meuArray = array ("valor1", "valor2", "valor3");</code></p>
+      </div>
+    </div>
+  </div>
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h1>Mapping de Arrays</h1>
+        <hr>
+        <p>Explicando bem resumidamente, mapping de array é uma função (<code>array_map()</code>) que permite a execução de funções num array.</p>
+      </div>
+    </div>
+    <div class="row">
+      <h1>Exemplo:</h1>
+      <div class="col-md-12 col-sm-12">
+        <div class="container myContainer">
+          <p><code>$myArray = array("Apple", "Melon", "Grape");
+            function insertLimit($valor) {<br>
+            return "Fruta: " . $valor;<br>
+        }<br>
+        $myArray = array_map("insertLimit", $myArray);
+        </code></p>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <a href="isset.php">
+          <button class="btn btn-primary position-absolute bottom-0 start-0 mb-3 btn-danger">Anterior</button>
+        </a>
+      </div>
+      <div class="col-6">
+        <a href="stringfun.php">
+          <button class="btn btn-secondary position-absolute bottom-0 end-0 mb-3 btn-success">Próximo</button>
+        </a>
+      </div>
+    </div>
+  </div>
 
 
 

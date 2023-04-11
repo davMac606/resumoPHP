@@ -62,6 +62,22 @@
           </div>
         </div>
       </nav>
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>Arrays de Servidor</h1>
+            <hr>
+            <p>(Não vou mentir, provavelmente ninguém nunca vai usar isso, mas ainda vai ser cobrado, então tá) Os arrays de servidor são funções que contém dados do usuário, sendo 5 delas as mais importantes:</p>
+            <ul type="dot">
+              <li> $_SERVER["SERVER_ADDR"] => Endereço IP do servidor onde o script está sendo executado.</li>
+              <li> $_SERVER["SERVER_NAME"] => Nome do host do servidor onde o script está sendo executado.</li>
+              <li> $_SERVER["HTTP_USER_AGENT"] => Dados do navegador ou agente que fez 'request' ao servidor.</li>
+              <li> $_SERVER["REMOTE_ADDR"] => Endereço IP do usuário vendo a página.</li>
+              <li> $_SERVER["SCRIPT_NAME"] => Caminho do script em relação à raiz do servidor.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-6">
@@ -69,7 +85,7 @@
             <button class="btn btn-primary position-absolute bottom-0 start-0 mb-3 btn-danger">Anterior</button>
             </a>
           </div>
-          <div class="col-6">
+          <div class="col-6"> 
             <a href="getpostreq.php">
             <button class="btn btn-secondary position-absolute bottom-0 end-0 mb-3 btn-success">Próximo</button>
             </a>

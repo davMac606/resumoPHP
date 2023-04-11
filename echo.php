@@ -72,32 +72,42 @@
   </nav>
   <div class="container container-fluid">
         <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <h1>Echo</h1>
-            <hr>
-            <p>O Echo, apesar de ser um statement, é um dos elementos fundamentais do PHP. </p>
-            <p>Este statement envia dados para a tela, podendo "executar tags" de HTML ou exibir variáveis de PHP.</p>
+          <div class="col-md-12 col-sm-12">
+              <h1>Echo</h1>
+               <hr>
+                <p>O Echo, apesar de ser um statement, é um dos elementos fundamentais do PHP. </p>
+                <p>Este statement envia dados para a tela, podendo "executar tags" de HTML ou exibir variáveis de PHP.</p>
+        </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
             <div class="container myContainer">
             <p>Exemplo:</p>
             <p><code>echo "Hello World!";</code></p>
             <p><code>Saída:</code>Hello World!</p>    
+            ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
             </div>
-            <br>
+            </div>
+            <div class="col-md-4 col-sm-12">
             <div class="container myContainer">
             <p>Outro exemplo: </p>
               <p> <code>$msg = "Essa é uma mensagem passada pelo echo";</code></p>
               <p> <code> echo $msg;</code></p>
               <p> <code> Saída: </code> Essa é uma mensagem passada pelo echo</p>
             </div>
-            <br>
+            </div>
+            <div class="col-md-4 col-sm-12">
             <div class="container myContainer">
               <p>Esse é um exemplo da interação entre <code>echo</code> e tags de HTML:</p>
               <p> <code>echo "teste &ltbr&gt isso é uma quebra de linha!";</code></p>
               <p> <code>Saída: </code> teste <br> isso é uma quebra de linha!</p>
             </div>
+            </div>
+          </div>
+          
+            
             
         </div>
-      </div>
   <div class="container-fluid">
         <div class="row">
           <div class="col-6">
