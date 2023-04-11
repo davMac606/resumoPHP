@@ -50,9 +50,6 @@
             <a class="nav-link" href="forms.php">Formulários e method</a>
           </li>
           <li class="nav-item" style="border-right: 1px solid black;">
-            <a class="nav-link" href="forminfo.php">Receber informações de formulário</a>
-          </li>
-          <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="reqmeth.php">Request Method</a>
           </li>
           <li class="nav-item" style="border-right: 1px solid black;">

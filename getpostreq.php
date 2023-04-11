@@ -62,6 +62,34 @@
           </div>
         </div>
       </nav>
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>Arrays $_GET, $_POST E $_REQUEST</h1>
+            <hr>
+            <p><code>$_GET,$_POST e $_REQUEST</code>são variáveis superglobais usadas para envio de dados em <b>formulários</b>. Apesar de serem do mesmo grupo, existem diferenças cruciais entre as mesmas:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <h1>$_GET</h1>
+            <hr>
+            <p>A mais simples das 3 variáveis, uso recomendado para valores da URL, tais como filtro de pesquisa e identificadores de página.</p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h1>$_POST</h1>
+            <hr>
+            <p>A mais comum das variáveis, usada para coletar dados de <b>formulários</b>, arquivos, entre outros.</p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h1>$_REQUEST</h1>
+            <hr>
+            <p>Extremamente específica, $_REQUEST coleta dados tanto de métodos GET quanto métodos POST e cookies da página. Devido ao contato com cookies, requer maior segurança, pois a injeção de dados maliciosos pode danificar os dados da página, fazendo com que a variável $_REQUEST seja evitada a menos que necessária.</p>
+          </div>
+        </div>
+        
+     
+      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-6">

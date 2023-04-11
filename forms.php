@@ -50,9 +50,6 @@
             <a class="nav-link" href="forms.php">Formulários e method</a>
           </li>
           <li class="nav-item" style="border-right: 1px solid black;">
-            <a class="nav-link" href="forminfo.php">Receber informações de formulário</a>
-          </li>
-          <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="reqmeth.php">Request Method</a>
           </li>
           <li class="nav-item" style="border-right: 1px solid black;">
@@ -65,6 +62,28 @@
       </div>
     </div>
   </nav>
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h1>Formulários</h1>
+        <hr>
+        <p>Uma parte essencial do PHP, os formulários são o meio de comunicação entre o usuário e o servidor PHP. Existem 2 atributos extremamente importantes para os formulários no contexto de PHP:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h1>Atributo Action</h1>
+        <hr>
+        <p>O atributo 'action' é utilizado para determinar o script/página que irá processar os dados do formulário. Para usá-lo, basta definir o endereço. Exemplo:</p><br>
+        <p><code>&ltform action='codigoPHP.php'&gt</code></p>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <h1>Atributo Method</h1>
+        <hr>
+        <p>O atributo 'method' determina se o formulário será processado utilizando as <b>variáveis superglobais</b> $_GET ou $_POST. Para usá-lo, basta definir a variável. Exemplo: </p><br>
+        <p><code>&ltform action='codigoPHP.php' method='POST'&gt</code></p>
+      </div>
+  </div>
 <div class="container-fluid">
         <div class="row">
           <div class="col-6">
@@ -73,7 +92,7 @@
             </a>
           </div>
           <div class="col-6">
-            <a href="forminfo.php">
+            <a href="reqmeth.php">
             <button class="btn btn-secondary position-absolute bottom-0 end-0 mb-3 btn-success">Próximo</button>
             </a>
           </div>
