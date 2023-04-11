@@ -50,9 +50,6 @@
             <a class="nav-link" href="forms.php">Formulários e method</a>
           </li>
           <li class="nav-item" style="border-right: 1px solid black;">
-            <a class="nav-link" href="reqmeth.php">Request Method</a>
-          </li>
-          <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="datas.php">Datas</a>
           </li>
           <li class="nav-item" style="border-right: 1px solid black;">
@@ -92,7 +89,7 @@
             </a>
           </div>
           <div class="col-6">
-            <a href="reqmeth.php">
+            <a href="datas.php">
             <button class="btn btn-secondary position-absolute bottom-0 end-0 mb-3 btn-success">Próximo</button>
             </a>
           </div>

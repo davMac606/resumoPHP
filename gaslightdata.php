@@ -47,9 +47,6 @@
                 <a class="nav-link" href="forms.php">Formulários e method</a>
               </li>
               <li class="nav-item" style="border-right: 1px solid black;">
-                <a class="nav-link" href="reqmeth.php">Request Method</a>
-              </li>
-              <li class="nav-item" style="border-right: 1px solid black;">
                 <a class="nav-link" href="datas.php">Datas</a>
               </li>
               <li class="nav-item disabled" style="border-right: 1px solid black;">

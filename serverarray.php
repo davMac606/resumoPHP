@@ -47,9 +47,6 @@
                 <a class="nav-link" href="forms.php">Formulários e method</a>
               </li>
               <li class="nav-item" style="border-right: 1px solid black;">
-                <a class="nav-link" href="reqmeth.php">Request Method</a>
-              </li>
-              <li class="nav-item" style="border-right: 1px solid black;">
                 <a class="nav-link" href="datas.php">Datas</a>
               </li>
               <li class="nav-item" style="border-right: 1px solid black;">
@@ -72,9 +69,9 @@
               <li> $_SERVER["REMOTE_ADDR"] => Endereço IP do usuário vendo a página.</li>
               <li> $_SERVER["SCRIPT_NAME"] => Caminho do script em relação à raiz do servidor.</li>
             </ul>
+            <p><i>Apenas um adendo de que pode-se utilizar <code>$_SERVER["REQUEST_METHOD"]</code> para fazer códigos específicos, tais como execuções somente caso o método seja 'POST'.</i></p>
           </div>
         </div>
-      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-6">

@@ -49,9 +49,6 @@
           <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="forms.php">Formulários e method</a>
           </li>
-          <li class="nav-item" style="border-right: 1px solid black;">
-            <a class="nav-link" href="reqmeth.php">Request Method</a>
-          </li>
           <li class="nav-item disabled" style="border-right: 1px solid black;">
             <a class="nav-link" href="datas.php">Datas</a>
           </li>
@@ -65,7 +62,7 @@
   <div class="container-fluid">
         <div class="row">
           <div class="col-6">
-            <a href="reqmeth.php">
+            <a href="forms.php">
             <button class="btn btn-primary position-absolute bottom-0 start-0 mb-3 btn-danger">Anterior</button>
             </a>
           </div>
