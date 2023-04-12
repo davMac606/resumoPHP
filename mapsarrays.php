@@ -82,20 +82,7 @@
       <div class="col-md-12 col-sm-12">
         <h1>Mapping de Arrays</h1>
         <hr>
-        <p>Explicando bem resumidamente, mapping de array é uma função (<code>array_map()</code>) que permite a execução de funções num array.</p>
-      </div>
-    </div>
-    <div class="row">
-      <h1>Exemplo:</h1>
-      <div class="col-md-12 col-sm-12">
-        <div class="container">
-          <p><code>$myArray = array("Apple", "Melon", "Grape");
-            function insertLimit($valor) {<br>
-            return "Fruta: " . $valor;<br>
-        }<br>
-        $myArray = array_map("insertLimit", $myArray);
-        </code></p>
-        </div>
+        <p>Explicando bem resumidamente, mapping de array(<code>array_map()</code>) é um mapeamento(obviamente) que recebe um array e uma função que recebe um valor e retorna outro array. Esta função é executada para cada elemento do array e retorna um novo array com os elementos.</p>
       </div>
     </div>
   </div>
