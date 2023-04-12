@@ -57,9 +57,6 @@
           <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="datas.php">Datas</a>
           </li>
-          <li class="nav-item" style="border-right: 1px solid black;">
-            <a class="nav-link" href="gaslightdata.php">Manipulação e Criação de Datas</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -75,34 +72,28 @@
           </div>
           <div class="row">
             <div class="col-md-4 col-sm-12">
-            <div class="container myContainer">
             <p>Exemplo:</p>
             <p><code>echo "Hello World!";</code></p>
-            <p><code>Saída:</code>Hello World!</p>    
+            <p><code>Saída:</code><?php echo "Hello World!" ?></p>    
             ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
             </div>
-            </div>
             <div class="col-md-4 col-sm-12">
-            <div class="container myContainer">
             <p>Outro exemplo: </p>
               <p> <code>$msg = "Essa é uma mensagem passada pelo echo";</code></p>
               <p> <code> echo $msg;</code></p>
-              <p> <code> Saída: </code> Essa é uma mensagem passada pelo echo</p>
-            </div>
+              <p> <code> Saída: </code> <?php  echo "Essa é uma mensagem passada pelo echo" ?></p>
             </div>
             <div class="col-md-4 col-sm-12">
-            <div class="container myContainer">
               <p>Esse é um exemplo da interação entre <code>echo</code> e tags de HTML:</p>
               <p> <code>echo "teste &ltbr&gt isso é uma quebra de linha!";</code></p>
-              <p> <code>Saída: </code> teste <br> isso é uma quebra de linha!</p>
+              <p> <code>Saída: </code> <?php echo "teste <br> isso é uma quebra de linha!" ?></p>
             </div>
             </div>
-          </div>
           
             
             
         </div>
-  <div class="container-fluid">
+  <div class="container-fluid botoes">
         <div class="row">
           <div class="col-6">
           <a href="stmt.php">

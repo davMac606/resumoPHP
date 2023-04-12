@@ -52,9 +52,6 @@
           <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="datas.php">Datas</a>
           </li>
-          <li class="nav-item" style="border-right: 1px solid black;">
-            <a class="nav-link" href="gaslightdata.php">Manipulação e Criação de Datas</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -72,7 +69,7 @@
   </div>
   <br>
   <br>
-  <div class="container-fluid">
+  <div class="container-fluid botoes">
         <div class="row">
           <div class="col-6">
             <a href="vars.php">

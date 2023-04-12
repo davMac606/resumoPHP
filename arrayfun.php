@@ -52,14 +52,16 @@
           <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="datas.php">Datas</a>
           </li>
-          <li class="nav-item" style="border-right: 1px solid black;">
-            <a class="nav-link" href="gaslightdata.php">Manipulação e Criação de Datas</a>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
+  <div class="container container-fluid">
+    <h1>Funções de Array</h1>
+    <hr>
+    <p>Devido ao grande número de funções para arrays, haverá apenas um link para <a href="https://www.php.net/manual/en/ref.array.php">a documentação</a>.</p>
+  </div>
+  <div class="container-fluid botoes">
         <div class="row">
           <div class="col-6">
             <a href="stringfun.php">

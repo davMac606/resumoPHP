@@ -5,13 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maps e Arrays</title>
+  <title>Datas</title>
   <link rel="stylesheet" type="text/css" href="bootstrap-5.2.2-dist\css\bootstrap.min.css">
-  <style>
-    .myContainer {
-      background-color: #aca4a4;
-    }
-  </style>
 </head>
 
 <body>
@@ -36,7 +31,7 @@
           <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="isset.php">Método isset</a>
           </li>
-          <li class="nav-item disabled" style="border-right: 1px solid black;">
+          <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="mapsarrays.php">Maps e Arrays</a>
           </li>
           <li class="nav-item" style="border-right: 1px solid black;">
@@ -54,7 +49,7 @@
           <li class="nav-item" style="border-right: 1px solid black;">
             <a class="nav-link" href="forms.php">Formulários e method</a>
           </li>
-          <li class="nav-item" style="border-right: 1px solid black;">
+          <li class="nav-item disabled" style="border-right: 1px solid black;">
             <a class="nav-link" href="datas.php">Datas</a>
           </li>
         </ul>
@@ -64,51 +59,104 @@
   <div class="container container-fluid">
     <div class="row">
       <div class="col-md-12 col-sm-12">
-        <h1>Arrays</h1>
+        <h1>Datas em PHP</h1>
         <hr>
-        <p>Arrays, para ser breve, são conjuntos de valores, criados com a intenção de serem facilmente manipulados. Para criar um array, basta declarar uma <code>variável</code> e indicar que é um array. Em seguida, insere-se os valores.</p>
+        <p>Em PHP, é possível criar e <code>manipular datas</code>. Existem vários comandos, os quais podem ser vistos
+          <a href="https://www.php.net/manual/pt_BR/ref.datetime.php">na documentação de PHP</a>.</p>
+        <p>Para ser breve, mostrarei apenas as mais importantes(a.k.a q a Simone mostrou).</p>
+
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <h1>Exemplo:</h1>
-        <hr>
-        <p><code>$meuArray = array ("valor1", "valor2", "valor3");</code></p>
+      <div class="col-md-4 col-sm-12">
+        <h2><code>date()</code></h2>
+        <p>Retorna a data atual do servidor.</p>
+        <p>Exemplo:</p>
+        <p><code>echo date("d/m/Y H:i:s");</code></p>
+        <p>Resultado:</p>
+        <p>
+          <?php echo date("d/m/Y H:i:s"); ?>
+        </p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2><code>time()</code></h2>
+        <p>Retorna o timestamp atual do servidor caso não tenha formatação. Vale lembrar que o timestamp é dado em
+          segundos que se passaram desde 01/01/1970.</p>
+        <p>Exemplo:</p>
+        <p><code>echo time();</code></p>
+        <p>Resultado:</p>
+        <p>
+          <?php echo time(); ?>
+        </p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2><code>mktime()</code></h2>
+        <p>Retorna o timestamp de uma data específica.</p>
+        <p>Exemplo:</p>
+        <p><code>echo mktime(15, 30, 00, 02, 15, 2021);</code></p>
+        <p>Resultado:</p>
+        <p>
+          <?php echo mktime(15, 30, 00, 02, 15, 2021); ?>
+        </p>
       </div>
     </div>
-  </div>
-  <div class="container container-fluid">
+    <hr>
     <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <h1>Mapping de Arrays</h1>
-        <hr>
-        <p>Explicando bem resumidamente, mapping de array é uma função (<code>array_map()</code>) que permite a execução de funções num array.</p>
+      <div class="col-md-4 col-sm-12">
+        <h2><code>strtotime()</code></h2>
+        <p>Retorna o timestamp de uma data específica.</p>
+        <p>Exemplos:</p>
+        <p><code>echo strtotime("2021-02-15 15:30:00");</code></p>
+        <p><code>echo strtotime("now");</code></p>
+        <p><code>echo strtotime("+1 day");</code></p>
+        <p><code>echo strtotime("+1 week");</code></p>
+        <p><code>echo strtotime("+1 week 2 days 3 hours 4 seconds");</code></p>
+        <p>Resultados:</p>
+        <p>
+          <?php echo strtotime("2021-02-15 15:30:00") . "<br>";?>
+          <?php echo strtotime("now") . "<br>" ?>
+          <?php echo strtotime("+1 day") . "<br>" ?>
+          <?php echo strtotime("+1 week") . "<br>"  ?>
+          <?php echo strtotime("+1 week 2 days 3 hours 4 seconds") . "<br>" ?>
+        </p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2><code>date_default_timezone_set()</code></h2>
+        <p>Define o timezone padrão do servidor.</p>
+        <p>Exemplo:</p>
+        <p><code>date_default_timezone_set("America/Sao_Paulo");</code></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2><code>checkdate()</code></h2>
+        <p>Verifica se uma data é válida.</p>
+        <p>Exemplo:</p>
+        <p><code>echo checkdate(02, 29, 2023);</code></p>
       </div>
     </div>
+    <hr>
     <div class="row">
-      <h1>Exemplo:</h1>
-      <div class="col-md-12 col-sm-12">
-        <div class="container">
-          <p><code>$myArray = array("Apple", "Melon", "Grape");
-            function insertLimit($valor) {<br>
-            return "Fruta: " . $valor;<br>
-        }<br>
-        $myArray = array_map("insertLimit", $myArray);
-        </code></p>
-        </div>
+      <div class="col-md-4 col-sm-12">
+
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2><code>Diferença entre datas</code></h2>
+        <p>Exemplo:</p>
+        <p><code>echo strtotime("now") - strtotime("2021-02-15 15:30:00");</code></p>
+        <p>Resultado:</p>
+        <p>
+          <?php echo strtotime("now") - strtotime("2021-02-15 15:30:00"); ?></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+
       </div>
     </div>
+    <hr>
   </div>
   <div class="container-fluid botoes">
     <div class="row">
       <div class="col-6">
-        <a href="isset.php">
+        <a href="forms.php">
           <button class="btn btn-primary position-absolute bottom-0 start-0 mb-3 btn-danger">Anterior</button>
-        </a>
-      </div>
-      <div class="col-6">
-        <a href="stringfun.php">
-          <button class="btn btn-secondary position-absolute bottom-0 end-0 mb-3 btn-success">Próximo</button>
         </a>
       </div>
     </div>

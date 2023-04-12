@@ -49,9 +49,6 @@
               <li class="nav-item" style="border-right: 1px solid black;">
                 <a class="nav-link" href="datas.php">Datas</a>
               </li>
-              <li class="nav-item" style="border-right: 1px solid black;">
-                <a class="nav-link" href="gaslightdata.php">Manipulação e Criação de Datas</a>
-              </li>
             </ul>
           </div>
         </div>
@@ -68,12 +65,12 @@
           <div class="col-md-4 col-sm-12">
             <h1>$_GET</h1>
             <hr>
-            <p>A mais simples das 3 variáveis, uso recomendado para valores da URL, tais como filtro de pesquisa e identificadores de página.</p>
+            <p>A mais simples das 3 variáveis, utilizada para receber valores, geralmente sendo valores da URL, tais como filtro de pesquisa e identificadores de página.</p>
           </div>
           <div class="col-md-4 col-sm-12">
             <h1>$_POST</h1>
             <hr>
-            <p>A mais comum das variáveis, usada para coletar dados de <b>formulários</b>, arquivos, entre outros.</p>
+            <p>A mais usada das variáveis, usada para coletar dados de <b>formulários</b>, arquivos, entre outros.</p>
           </div>
           <div class="col-md-4 col-sm-12">
             <h1>$_REQUEST</h1>
@@ -84,7 +81,7 @@
         
      
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid botoes">
         <div class="row">
           <div class="col-6">
             <a href="serverarray.php">

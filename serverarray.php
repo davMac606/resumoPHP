@@ -49,9 +49,6 @@
               <li class="nav-item" style="border-right: 1px solid black;">
                 <a class="nav-link" href="datas.php">Datas</a>
               </li>
-              <li class="nav-item" style="border-right: 1px solid black;">
-                <a class="nav-link" href="gaslightdata.php">Manipulação e Criação de Datas</a>
-              </li>
             </ul>
           </div>
         </div>
@@ -72,7 +69,8 @@
             <p><i>Apenas um adendo de que pode-se utilizar <code>$_SERVER["REQUEST_METHOD"]</code> para fazer códigos específicos, tais como execuções somente caso o método seja 'POST'.</i></p>
           </div>
         </div>
-      <div class="container-fluid">
+      </div>
+      <div class="container-fluid botoes">
         <div class="row">
           <div class="col-6">
             <a href="arrayfun.php">
@@ -86,7 +84,6 @@
           </div>
         </div>
       </div>
-      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>

@@ -49,14 +49,11 @@
               <li class="nav-item" style="border-right: 1px solid black;">
                 <a class="nav-link" href="datas.php">Datas</a>
               </li>
-              <li class="nav-item" style="border-right: 1px solid black;">
-                <a class="nav-link" href="gaslightdata.php">Manipulação e Criação de Datas</a>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="container container-fluid">
+      <div class="container container-fluid ">
         <div class="row">
           <div class="col-md-4 col-sm-12">
             <h1>Variáveis em PHP</h1>
@@ -69,7 +66,7 @@
       </div>
 
 
-      <div class="container-fluid">
+      <div class="container-fluid botoes">
         <div class="row">
           <div class="col-6">
             <a href="index.php">  
