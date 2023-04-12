@@ -56,7 +56,7 @@
       </div>
     </div>
   </nav>
-
+<?php echo $_SERVER["REMOTE_ADDR"]; ?>
   <div class="container container-fluid myContainer">
     <div class="row">
       <div class="col-md-12 col-sm-12">
