@@ -82,14 +82,33 @@
       <div class="col-md-12 col-sm-12">
         <h1>Mapping de Arrays</h1>
         <hr>
-        <p>Explicando bem resumidamente, mapping de array(<code>array_map()</code>) é um mapeamento(obviamente) que recebe um array e uma função que recebe um valor e retorna outro array. Esta função é executada para cada elemento do array e retorna um novo array com os elementos.</p>
+        <p>Explicando bem resumidamente, mapping de array(<code>array_map()</code>) é um mapeamento(obviamente) que recebe um array e uma função que recebe um valor e retorna outro array. Esta função é executada para cada elemento do array e retorna um novo array com os novos elementos.</p>
+      </div>
+    </div>
+    <div class="row">
+      <h1>Exemplo:</h1>
+      <div class="col-md-12 col-sm-12">
+        <div class="container">
+          <p><code>$materias_map = array(<br>
+    "matioli" => "C#"<br>
+          );<br>
+<br>
+function materiaParaProfessor($professor) {<br>
+    return $materias_map[$professor];<br>
+}<br>
+<br>
+$professores = array(...);<br>
+<br>
+$materias = array_map("materiaParaProfessor", $professores);<br>
+        </code></p>
+        </div>
       </div>
     </div>
   </div>
   <div class="container-fluid botoes">
     <div class="row">
       <div class="col-6">
-        <a href="isset.php">
+      <a href="isset.php">
           <button class="btn btn-primary position-absolute bottom-0 start-0 mb-3 btn-danger">Anterior</button>
         </a>
       </div>
